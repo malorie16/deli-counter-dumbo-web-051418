@@ -9,3 +9,7 @@ def line(katz_deli_line)
   puts line
   end
 end
+
+def take_a_number(katz_deli_line, name)
+  katz_deli_line.push(name)
+end
